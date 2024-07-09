@@ -1,0 +1,36 @@
+body{
+    margin-top: 500px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: burlywood;
+}
+
+.container{
+    height: 350px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid;
+    padding: 20px;
+    margin-top: 70px;
+}
+#Res{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#clr{
+    grid-column-start: 4;
+    background-color: red;
+}
+button{
+    background-color: beige;
+    
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
